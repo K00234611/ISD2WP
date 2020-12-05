@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .row.content {height: 550px}
+    
+    .sidenav {
+      background-image: url("p2.jpg");
+	  background-image: no-repeat;
+	  height: 128%;
+	  
+    }
+       
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+	.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      height:50%;
+  }
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 130px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:12px;
+}
+.button1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:12px;
+}
+.button2 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 110px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:12px;
+}
+  .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+     
+    footer {
+      background-color: #4CAF50;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      height:50%;
+  }
+
+  
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  .container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.button3 {
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button4 {
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+</style>
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs pill-nav">
+	<br> </br>
+      <h1><bold><center>DashBoard</bold></center></h1>
+	  <br> </br>
+	  <br>  </br>
+	  <br>  </br>
+	  <form>
+	  <input type="submit" formaction="home.html" class="button" value="Home">
+	  <input type="submit" formaction="salesmanagment.html" class="button1" value="Add Staff">
+	  <input type="submit" formaction="salesmanagment1.html" class="button2" value="Add Product">
+	   
+      <ul class="nav nav-pills nav-stacked">
+	  
+      </form>
+      </ul><br>
+    </div>
+    
+    <div class="col-sm-9">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <div  style="height:65px;" class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="p2.jpg" alt="i2.jpg">
+        <div class="carousel-caption">
+        </div>      
+      </div>
+    </div>
+
+ 
+</div>
+<h1> <center> Current Offers</center> </h1>
+  
+<div class="container text-center">    
+  <br>
+  <form>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="p3.jpg" class="img-responsive" style="width:100%" "height:100%" alt="Image">
+	     <h1> <bold> Jug Set </bold> </h1>
+      <input type="text"  class="button3" value="800$">
+	  <input type="submit" formaction="salesmanagment1.html" class="button4" value="Add">	 
+    </div>
+    <div class="col-sm-3"> 
+      <img src="p2.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <h1> <bold> Cooker Set </bold> </h1>
+      <input type="text"  class="button3" value="200$">	 
+<input type="submit" formaction="salesmanagment1.html" class="button4" value="Add">	  
+    </div>
+	<div class="col-sm-3"> 
+      <img src="p4.jpeg" class="img-responsive" style="width:100%" alt="Image">
+       <h1> <bold> Cake Mould </bold> </h1>	  
+	  <input type="text" formaction="/hs/hi3/salesmanagment3.php" class="button3" value="400$">
+	  <input type="submit" formaction="salesmanagment1.html" class="button4" value="Add">
+    </div>
+    
+  </div>
+  </form>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <h2><bold> Kestrel Steels Ltd<bold></h2>
+</footer>
+	
+    
+     
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
